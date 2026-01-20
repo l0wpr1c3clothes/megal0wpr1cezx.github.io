@@ -1,9 +1,7 @@
 const upload = document.querySelector('.upload');
 
-if (!upload) {
-  console.error('Element .upload nie znaleziony!');
-} else {
-  const imageInput = document.createElement('input');
+
+const imageInput = document.createElement('input');
 
 
 
@@ -295,4 +293,3 @@ guide.addEventListener('click', () => {
 
 
 });
-}});
